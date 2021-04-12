@@ -1,33 +1,36 @@
+/* universal selection */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* body selector */
 body {
     background-color: #d9dcd6;
 }
+/* main font color on webpage to white */
 .main-color {
     color: #ffffff;
 }
-
+/* heading container */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     
 }
-
+/* company name horisen header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* span part of horiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* navigation menu */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,16 +46,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* nav links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* all paragraphs on webpage font size */
 p {
     font-size: 16px;
 }
-
+/* oversized banner image (considered decorative) */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,7 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* content box images floating left & right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -72,12 +75,34 @@ p {
     margin-left: 25px;
 }
 
+
+/* main content of the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* blue background for content */
+.content-boxes{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    /* color: #ffffff; */
+}
 
+/* content image (total of 3) */
+.content-boxes img {
+    max-height: 200px;
+}
+
+/* heading of content boxes */
+.content-boxes h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* benefit container */
 .benefits-aside {
     margin-right: 20px;
     padding: 20px;
@@ -87,53 +112,31 @@ p {
     height: 100%;
     background-color: #2589bd;
 }
-
+/* benefit container margins */
 .benefit{
     margin-bottom:32px ;
     
 }
- 
+ /* benefit headers */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* benefit icons (total of 3) */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-
-
-.content-boxes{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    /* color: #ffffff; */
-}
-
-
-
-.content-boxes img {
-    max-height: 200px;
-}
-
-
-.content-boxes h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer container */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* footer header */
 .footer h4 {
     font-size: 20px;
 }
